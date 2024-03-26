@@ -6,6 +6,8 @@ import Navbar from "react-bootstrap/Navbar";
 import React from "react";
 import { Outlet } from "react-router-dom";
 import "./AppLayout.style.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 
 const AppLayout = () => {
   return (
@@ -42,7 +44,7 @@ const AppLayout = () => {
                 aria-label="Search"
               />
               <Button className="search-button" variant="outline-danger">
-                Search
+                <FontAwesomeIcon icon={faMagnifyingGlass} />
               </Button>
             </Form>
           </Navbar.Collapse>
