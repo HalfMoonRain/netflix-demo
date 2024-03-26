@@ -1,0 +1,8 @@
+.NotFound {
+  background: url("https://sitechecker.pro/wp-content/uploads/2023/06/404-status-code.png")
+    no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
