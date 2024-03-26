@@ -1,0 +1,28 @@
+/* AppLayout.style.css */
+
+.nav-brand-custom {
+  color: #e50914 !important; /* This is for the NETFLIX brand */
+}
+
+.nav-link-custom {
+  color: #f0ffff !important; /* This is for the Home and Movies links */
+}
+
+.search-input {
+  border-radius: 20px; /* Adjust as needed for styling */
+  border: 1px solid #ffffff50; /* This gives a semi-transparent border */
+}
+
+.search-button {
+  border-radius: 20px; /* Match the input field border-radius */
+  border: 1px solid #ffffff50; /* Match the input field border */
+}
+
+/* Add this if you want to change the color of the button text or the border on hover */
+.search-button:hover {
+  color: #f0ffff; /* Text color */
+  background-color: #e50914; /* Background color */
+  border-color: #e50914; /* Border color */
+}
+
+/* Continue with the rest of your styles... */
